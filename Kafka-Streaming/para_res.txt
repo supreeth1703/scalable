@@ -1,0 +1,39 @@
+*** Kafka consumer connected. Streaming arXiv messages...
+
+========== Processing Workload 10000 (Parallel) ==========
+Processed 10000 records — Elapsed: 4.87s, Throughput: 2053.46/sec, Mem: 37.55%
+
+======> Final Summary for Workload 10000 (Parallel):
+   Total Records Processed: 10000
+   Total Processing Time: 4.87 seconds | Avg CPU: 100.00%
+
+========== Processing Workload 30000 (Parallel) ==========
+Processed 30000 records — Elapsed: 11.49s, Throughput: 2610.14/sec, Mem: 41.00%
+
+======> Final Summary for Workload 30000 (Parallel):
+   Total Records Processed: 30000
+   Total Processing Time: 11.50 seconds | Avg CPU: 100.00%
+
+========== Processing Workload 60000 (Parallel) ==========
+Processed 50000 records — Elapsed: 19.34s, Throughput: 2585.12/sec, Mem: 48.50%
+Processed 60000 records — Elapsed: 23.19s, Throughput: 2586.83/sec, Mem: 48.95%
+
+======> Final Summary for Workload 60000 (Parallel):
+   Total Records Processed: 60000
+   Total Processing Time: 23.20 seconds | Avg CPU: 50.00%
+
+========== Processing Workload 90000 (Parallel) ==========
+Processed 50000 records — Elapsed: 18.99s, Throughput: 2633.08/sec, Mem: 55.95%
+Processed 90000 records — Elapsed: 35.38s, Throughput: 2543.58/sec, Mem: 58.45%
+
+======> Final Summary for Workload 90000 (Parallel):
+   Total Records Processed: 90000
+   Total Processing Time: 35.40 seconds | Avg CPU: 50.00%
+
+*** Final Task Results Across All Workloads (Parallel):
+Top 5 Categories: [('astro-ph', 19875), ('hep-ph', 16978), ('hep-th', 15943), ('quant-ph', 12003), ('gr-qc', 9941)]
+Top 5 Journals by Versions: [('Fund. Inform. 125 (2013), no. 1, pp. 95-99 (an altered version\n  with a new title)', 152), ("Dans Design, Automation and Test in Europe - DATE'05, Munich :\n  Allemagne (2005)", 128), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2008, Nice : France (2008)', 77), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2007, Stresa, lago Maggiore : Italie (2007)', 66), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2006, Stresa, Lago Maggiore : Italie (2006)', 49)]
+Total Abstract Word Count: 23443953
+/home/ec2-user/environment/CODE/temp_para.py:130: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.

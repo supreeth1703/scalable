@@ -1,0 +1,37 @@
+*** Kafka consumer connected. Streaming arXiv messages...
+
+========== Processing Workload 10000 ==========
+Processed 10000 records — Batch Time: 13.56s, Throughput: 3688.21/sec, CPU: 70.9%, Mem: 75.7%
+
+======> Final Summary for Workload 10000:
+   Total Records Processed: 10000
+   Total Processing Time: 13.56 seconds
+
+========== Processing Workload 30000 ==========
+Processed 30000 records — Batch Time: 22.25s, Throughput: 2246.95/sec, CPU: 78.0%, Mem: 75.2%
+
+======> Final Summary for Workload 30000:
+   Total Records Processed: 30000
+   Total Processing Time: 22.25 seconds
+
+========== Processing Workload 60000 ==========
+Processed 50000 records — Batch Time: 27.06s, Throughput: 1848.04/sec, CPU: 86.3%, Mem: 75.8%
+Processed 60000 records — Batch Time: 14.37s, Throughput: 3479.07/sec, CPU: 67.0%, Mem: 76.1%
+
+======> Final Summary for Workload 60000:
+   Total Records Processed: 60000
+   Total Processing Time: 41.43 seconds
+
+========== Processing Workload 90000 ==========
+Processed 50000 records — Batch Time: 27.10s, Throughput: 1845.25/sec, CPU: 86.8%, Mem: 76.7%
+Processed 90000 records — Batch Time: 25.14s, Throughput: 1988.64/sec, CPU: 82.6%, Mem: 78.4%
+
+======> Final Summary for Workload 90000:
+   Total Records Processed: 90000
+   Total Processing Time: 52.24 seconds
+
+*** Final Task Results Across All Workloads:
+Top 5 Categories: [('astro-ph', 19875), ('hep-ph', 16978), ('hep-th', 15943), ('quant-ph', 12003), ('gr-qc', 9941)]
+Top 5 Journals by Versions: [('Fund. Inform. 125 (2013), no. 1, pp. 95-99 (an altered version\n  with a new title)', 152), ("Dans Design, Automation and Test in Europe - DATE'05, Munich :\n  Allemagne (2005)", 128), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2008, Nice : France (2008)', 77), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2007, Stresa, lago Maggiore : Italie (2007)', 66), ('Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2006, Stresa, Lago Maggiore : Italie (2006)', 49)]
+Total Abstract Word Count: 23443953
+/home/ec2-user/environment/CODE/seq_kafka.py:128: FutureWarning: 

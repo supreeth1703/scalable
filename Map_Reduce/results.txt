@@ -1,0 +1,40 @@
+
+==== Sequential processing for 100000 records ====
+Sequential metrics for 100000: (7.658314228057861, 487.47265625, 0.5, 13057.703957044327)
+Sequential cumulative so far -> Time: 7.66s, Memory: 487.47MB, CPU: 0.50%, Throughput: 13057.70 records/s
+
+==== Parallel processing for 100000 records ====
+Parallel metrics for 100000: (3.2163212299346924, 340.21875, 0.3, 31091.42179869593)
+Parallel cumulative so far -> Time: 3.22s, Memory: 340.22MB, CPU: 0.30%, Throughput: 31091.42 records/s
+
+==== Sequential processing for 300000 records ====
+Sequential metrics for 300000: (19.084223985671997, 874.85546875, 0.2, 15719.790347526481)
+Sequential cumulative so far -> Time: 26.74s, Memory: 1362.33MB, CPU: 0.70%, Throughput: 28777.49 records/s
+
+==== Parallel processing for 300000 records ====
+Parallel metrics for 300000: (11.120796203613281, 1189.49609375, 0.5, 26976.48572163622)
+Parallel cumulative so far -> Time: 14.34s, Memory: 1529.71MB, CPU: 0.80%, Throughput: 58067.91 records/s
+
+==== Sequential processing for 600000 records ====
+Sequential metrics for 600000: (28.745745420455933, 761.12890625, 0.2, 20872.654064939656)
+Sequential cumulative so far -> Time: 55.49s, Memory: 2123.46MB, CPU: 0.90%, Throughput: 49650.15 records/s
+
+==== Parallel processing for 600000 records ====
+Parallel metrics for 600000: (24.01070737838745, 1653.94921875, 0.1, 24988.85145466696)
+Parallel cumulative so far -> Time: 38.35s, Memory: 3183.66MB, CPU: 0.90%, Throughput: 83056.76 records/s
+
+==== Sequential processing for 900000 records ====
+Sequential metrics for 900000: (41.69707894325256, 764.34765625, 0.6, 21584.245774742412)
+Sequential cumulative so far -> Time: 97.19s, Memory: 2887.80MB, CPU: 1.50%, Throughput: 71234.39 records/s
+
+==== Parallel processing for 900000 records ====
+Parallel metrics for 900000: (36.119388818740845, 1131.9296875, 0.5, 24917.365144701107)
+Parallel cumulative so far -> Time: 74.47s, Memory: 4315.59MB, CPU: 1.40%, Throughput: 107974.12 records/s
+
+==== Final Cumulative Totals ====
+Sequential Total Time: 97.19s
+Parallel   Total Time: 74.47s
+
+Parallel total execution time is less than Sequential — as expected.
+
+All performance graphs saved.

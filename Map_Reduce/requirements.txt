@@ -1,0 +1,7 @@
+kafka-python
+pandas
+numpy
+matplotlib
+seaborn
+psutil
+textblob
